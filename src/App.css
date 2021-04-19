@@ -12,8 +12,8 @@ body {
   backdrop-filter: blur(5px);
   background-color: rgba(178, 60, 253, 0.2);
 }
-/* .navbar-background {
-  background: ${({ theme }) => theme.navBackground};
-  color: ${({ theme }) => theme.text};
-  transition: all 0.25s linear;
-} */
+.landing-image {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+}
