@@ -1,0 +1,19 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  /* background-color: #35363A; */
+}
+.navbar-brand:hover, .nav-link:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+.test {
+  background-color: springgreen;
+}
+.mask-custom {
+  backdrop-filter: blur(5px);
+  background-color: rgba(178, 60, 253, 0.2);
+}
+/* .navbar-background {
+  background: ${({ theme }) => theme.navBackground};
+  color: ${({ theme }) => theme.text};
+  transition: all 0.25s linear;
+} */
