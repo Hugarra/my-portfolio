@@ -9,6 +9,7 @@ body {
 nav {
   background: ${({ theme }) => theme.navbar};
   color: ${({ theme }) => theme.text};
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .25), 0 3px 10px 5px rgba(0, 0, 0, 0.05) !important;
   transition: all 0.25s linear;
 }
 .navbar-brand, .nav-link {
