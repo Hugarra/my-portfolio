@@ -34,3 +34,11 @@ body {
         background-position: 0% 50%;
     }
 }
+
+.img-place-holder {
+  background-color: gray;
+}
+.about-text {
+  margin-top: 3%;
+  vertical-align: middle;
+}
