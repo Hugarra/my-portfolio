@@ -6,6 +6,10 @@ body {
   color: ${({ theme }) => theme.text};
   transition: all 0.25s linear;
 }
+a {
+  color: ${({ theme }) => theme.text};
+  transition: all 0.25s linear;
+}
 nav {
   background: ${({ theme }) => theme.navbar};
   color: ${({ theme }) => theme.text};

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import Navbar from "./components/Navbar.jsx"
 import Landing from "./components/Landing.jsx"
+import Footer from "./components/Footer.jsx"
 
 import './App.css';
 
@@ -19,6 +20,7 @@ function App() {
         <GlobalStyles />
         <Navbar themeSwitch={setDarkMode} theme={darkMode}/>
         <Landing></Landing>
+        <Footer></Footer>
       </>
     </ThemeProvider>
   );

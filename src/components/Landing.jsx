@@ -18,7 +18,6 @@ function Landing(props) {
                     <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed illo minus quis consequatur, adipisci architecto delectus cumque, maxime quos at non velit laudantium, dicta nulla? Eum aperiam veritatis natus assumenda?</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus molestias quo perspiciatis, dignissimos dolore eligendi odio autem distinctio quod rem excepturi, in dolores deserunt necessitatibus dolorem fugit rerum ducimus quasi!</p>
                 </div>
-                <hr></hr>
             </div>
         </div>
     );
