@@ -6,7 +6,7 @@ function Footer(props) {
             <hr></hr>
             <div className="row text-center">
                 <div className="col-6 p-0">
-                    <h5 className="m-0">Lorem ipsum dolor sit amet.</h5>
+                    <h5 className="m-0">Thanks you very much for visit my page.</h5>
                 </div>
                 <div className="col-6 p-0">
                     <a href="https://github.com/Hugarra">My Github here!</a>

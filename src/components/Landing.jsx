@@ -7,13 +7,13 @@ import LandingImage from "../materials/kisspng-jamal-mohamed-college-student-shr
 
 function Landing(props) {
     return (
-        <div>
+        <div className="landing-page-container">
             <div className="container-fluid landing pb-3">
                 <div className="d-flex gap-2 justify-content-center">
                     <div className="d-block landing-text">
                         <h1 className="h1">Hugo Solian</h1>
-                        <h1 className="h1">Web designer!</h1>
-                        <p>Junior self-taught web application developer</p>
+                        <h1 className="h1">Web developer!</h1>
+                        <h4>Junior self-taught web application developer</h4>
                         <div className="d-flex gap-3 mt-3">
                             <a href="https://www.linkedin.com/in/hug-solian/">
                                 <i className="fab fa-linkedin" ></i>
