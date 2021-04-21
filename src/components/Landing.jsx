@@ -10,7 +10,7 @@ function Landing(props) {
         <div>
             <div className="container-fluid landing">
                 <div data-aos="fade-up">
-                    <img src={LandingImage} alt="landing" className="landing-image mb-3"></img>
+                    <img src={LandingImage} alt="landing" className="landing-image mb-3 pt-3"></img>
                     <h1 className="h1 text-center">Hugo Solian, Web designer!</h1>
                 </div>
                 <br></br>

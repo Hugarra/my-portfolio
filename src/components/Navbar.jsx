@@ -5,7 +5,7 @@ import darkIcon from '../materials/outline_dark_mode_black_24dp.png';
 
 function Navbar(props) {
     return (
-        <nav className="navbar navbar-expand-lg">
+        <nav className="navbar navbar-expand-lg fixed-top">
             <div className="container-fluid">
                 <a className="navbar-brand" href="/">Hugo Solian's Portfolio</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
