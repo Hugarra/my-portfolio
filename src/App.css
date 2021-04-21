@@ -17,8 +17,18 @@ a:hover {
 }
 .landing-image {
   display: block;
-  margin: 0 auto;
-  width: 60%;
+  margin-right: 2rem;
+  width: 50%;
+}
+.landing-text {
+  margin-top: 10%;
+}
+.social-media {
+  height: 3rem;
+  width: 3rem;
+}
+.fab {
+  font-size: 3rem;
 }
 .landing {
   margin-top: 56px;

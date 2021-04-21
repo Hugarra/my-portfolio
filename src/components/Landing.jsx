@@ -3,15 +3,30 @@ import React from 'react';
 import About from "./About.jsx"
 import Proyectos from "./Proyectos.jsx"
 
-import LandingImage from "../materials/kisspng-digital-marketing-business-marketing-strategy-soci-marketing-illustration-5a94c78e5101a9.9483170215196998543318.png"
+import LandingImage from "../materials/kisspng-jamal-mohamed-college-student-shri-ram-college-of-5ae0ce56451bf5.9906879715246823262831.png"
 
 function Landing(props) {
     return (
         <div>
-            <div className="container-fluid landing">
-                <div data-aos="fade-up">
+            <div className="container-fluid landing pb-3">
+                <div className="d-flex gap-2 justify-content-center">
+                    <div className="d-block landing-text">
+                        <h1 className="h1">Hugo Solian</h1>
+                        <h1 className="h1">Web designer!</h1>
+                        <p>Junior self-taught web application developer</p>
+                        <div className="d-flex gap-3 mt-3">
+                            <a href="https://www.linkedin.com/in/hug-solian/">
+                                <i className="fab fa-linkedin" ></i>
+                            </a>
+                            <a href="https://www.instagram.com/hugos848">
+                                <i className="fab fa-instagram" ></i>
+                            </a>
+                            <a href="https://github.com/Hugarra">
+                                <i className="fab fa-github" ></i>
+                            </a>
+                        </div>
+                    </div>
                     <img src={LandingImage} alt="landing" className="landing-image mb-3 pt-3"></img>
-                    <h1 className="h1 text-center">Hugo Solian, Web designer!</h1>
                 </div>
                 <br></br>
             </div>
