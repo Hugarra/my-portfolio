@@ -30,6 +30,10 @@ a:hover {
 .fab {
   font-size: 3rem;
 }
+.form-contact {
+  width: 75%;
+  margin: auto;
+}
 .landing {
   margin-top: 56px;
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);

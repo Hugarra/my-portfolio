@@ -2,6 +2,7 @@ import React from 'react';
 
 import About from "./About.jsx"
 import Proyectos from "./Proyectos.jsx"
+import Contact from "./Contact.jsx"
 
 import LandingImage from "../materials/kisspng-jamal-mohamed-college-student-shri-ram-college-of-5ae0ce56451bf5.9906879715246823262831.png"
 
@@ -38,6 +39,10 @@ function Landing(props) {
                 <hr></hr>
                 <div data-aos="fade-up">
                     <Proyectos></Proyectos>
+                </div>
+                <hr></hr>
+                <div data-aos="fade-up">
+                    <Contact></Contact>
                 </div>
             </div>
         </div>
