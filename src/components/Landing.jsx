@@ -16,18 +16,18 @@ function Landing(props) {
                         <h1 className="h1">Web developer!</h1>
                         <h4>Junior self-taught web application developer</h4>
                         <div className="d-flex gap-3 mt-3">
-                            <a href="https://www.linkedin.com/in/hug-solian/">
+                            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/hug-solian/">
                                 <i className="fab fa-linkedin" ></i>
                             </a>
-                            <a href="https://www.instagram.com/hugos848">
+                            <a target="_blank" rel="noreferrer" href="https://www.instagram.com/hugos848">
                                 <i className="fab fa-instagram" ></i>
                             </a>
-                            <a href="https://github.com/Hugarra">
+                            <a target="_blank" rel="noreferrer" href="https://github.com/Hugarra">
                                 <i className="fab fa-github" ></i>
                             </a>
                         </div>
                     </div>
-                    <img src={LandingImage} alt="landing" className="landing-image mb-3 pt-3"></img>
+                    <img src={LandingImage} alt="landing" className="landing-image d-none d-lg-block mb-3 pt-3"></img>
                 </div>
                 <br></br>
             </div>

@@ -9,7 +9,7 @@ function Footer(props) {
                     <h5 className="m-0">Thanks you very much for visit my page.</h5>
                 </div>
                 <div className="col-6 p-0">
-                    <a href="https://github.com/Hugarra">My Github here!</a>
+                    <a target="_blank" rel="noreferrer" href="https://github.com/Hugarra">My Github here!</a>
                 </div>
             </div>
         </footer>
