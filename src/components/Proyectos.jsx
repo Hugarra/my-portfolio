@@ -28,6 +28,17 @@ function Proyectos(props) {
                             </div>
                         </div>
                     </div>
+                    <div className="col-12 col-md-6">
+                        <div className="card m-auto mt-3" style={{width: 304}}>
+                            <div className="card-body">
+                                <h4 className="card-title">web-practice-videoplayer</h4>
+                                <hr></hr>
+                                <h6 className="card-subtitle mb-2 text-muted">Basic Videoplayer web</h6>
+                                <p className="card-text">I lerned how to reproduce a video in a React JS web app.</p>
+                                <a target="_blank" rel="noreferrer" href="https://github.com/Hugarra/web-practice-videoplayer" className="card-link">Project Github here</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
