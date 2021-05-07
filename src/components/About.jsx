@@ -6,12 +6,12 @@ function About(props) {
             <h3>About me</h3>
             <div className="row pt-3 pb-3">
                 <div className="col-md-4 col-12 text-center">
-                    <svg className="bd-placeholder-img rounded-circle img-place-holder" width="150" height="150"></svg>
+                    <svg className="bd-placeholder-img rounded-circle img-perfil" width="150" height="150"></svg>
                 </div>
                 <div className="col-md-8 col-12">
                     <div className="about-text text-start">
                         <h5>Hugo Solian</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam ea fugit commodi quae beatae dolorum quam cumque nesciunt autem odit aliquid, deserunt possimus debitis aliquam, impedit expedita? Quos, neque sunt?</p>
+                        <p>I am a self-taught web developer with one year of experience in layout and design, frontend and backend development. Some technologies I use are: HTML, CSS, JavaScript, Bootstrap, ReactJS, MySQL, NodeJS, Python(Flask, SqlAlchemy)</p>
                     </div>
                 </div>
             </div>

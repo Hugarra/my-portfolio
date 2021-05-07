@@ -2,15 +2,8 @@ body {
   font-family: 'Open Sans', sans-serif;
   margin: 0%;
 }
-.navbar-brand:hover, .nav-link:hover {
-  color: rgba(255, 255, 255, 0.5);
-}
-a:hover {
-  color: rgba(255, 255, 255, 0.5);
-}
-.test {
-  background-color: springgreen;
-}
+
+
 .mask-custom {
   backdrop-filter: blur(5px);
   background-color: rgba(178, 60, 253, 0.2);
@@ -54,8 +47,10 @@ a:hover {
     }
 }
 
-.img-place-holder {
-  background-color: gray;
+.img-perfil {
+  background-image: url('./materials/perfil.jpeg');
+  background-repeat: no-repeat;
+  background-size: 150px 150px;
 }
 .about-text {
   margin-top: 3%;

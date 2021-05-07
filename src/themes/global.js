@@ -27,6 +27,12 @@ nav {
   color: ${({ theme }) => theme.text};
   transition: all 0.25s linear;
 }
+.navbar-brand:hover, .nav-link:hover {
+  color: ${({ theme }) => theme.colorHover};
+}
+a:hover {
+  color: ${({ theme }) => theme.colorHover};
+}
 .form-control {
   background: ${({ theme }) => theme.body};
   color: ${({ theme }) => theme.text};
