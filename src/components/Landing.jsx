@@ -6,6 +6,8 @@ import Contact from "./Contact.jsx"
 
 import LandingImage from "../materials/kisspng-jamal-mohamed-college-student-shri-ram-college-of-5ae0ce56451bf5.9906879715246823262831.png"
 
+import fiverr from "../materials/fiverr.png"
+
 function Landing(props) {
     return (
         <div className="landing-page-container">
@@ -43,6 +45,13 @@ function Landing(props) {
                 <hr></hr>
                 <div data-aos="fade-up">
                     <Contact></Contact>
+                </div>
+                <hr></hr>
+                <div data-aos="fade-up">
+                    <div className="text-center">
+                        <img src={fiverr} alt="fiverr" className="fiverr-png me-4"></img>
+                        <a className="mt-3 h3" target="_blank" rel="noreferrer" href="https://www.fiverr.com/share/W7ddyl" >Check out my Fiverr Gig here!</a>
+                    </div>
                 </div>
             </div>
         </div>
